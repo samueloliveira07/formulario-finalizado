@@ -1,0 +1,86 @@
+body {
+    background: #ff6b68;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.conteudo-pag {
+    border: 2px solid black;
+}
+
+.texto {
+    color: #fff;
+}
+
+h1 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.preço {
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px black;
+    width: 500px;
+    height: 50px;
+    background: #5f5baa;
+    color: #fff;
+    text-align: center;
+}
+
+.preço p {
+    padding: 15px 0 10px 0;
+}
+
+.preço span {
+    color: #fff;
+    font-weight: bold;
+}
+form {
+    border-radius: 5px;
+    background: #fff;
+    text-align: right;
+    width: 500px;
+    height: 400px;
+    box-shadow: 3px 3px 6px;
+}
+
+input {
+    display: block;
+    padding: 20px;
+    width: 300px;
+    height: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    
+}
+
+input::placeholder {
+    color: black;
+    padding: 5px;
+}
+
+.input-form {
+    margin: 20px 0 0 75px;
+}
+
+.input-submit {
+    margin: 20px 0 0 0;
+    cursor: pointer;
+    width: 350px;
+    height: 50px;
+    background: #50e1a4;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.autorizacao{
+    font-weight: bold;
+    width: 400px;
+    font-size: 12px;
+    
+}
+
+span {
+    color: red;
+}
