@@ -3,17 +3,24 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.conteudo-pag {
-    border: 2px solid black;
-}
-
 .texto {
     color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 340px;
+    left: 150px;
+    text-shadow: 1px 1px 2px black;
 }
 
 h1 {
     font-weight: bold;
     font-style: italic;
+}
+
+.formulario {
+    position: absolute;
+    top: 220px;
+    right: 250px;
 }
 
 .preço {
@@ -34,36 +41,35 @@ h1 {
     color: #fff;
     font-weight: bold;
 }
+
 form {
     border-radius: 5px;
-    background: #fff;
-    text-align: right;
+    background: #e2e2e2;
     width: 500px;
-    height: 400px;
+    height: 420px;
     box-shadow: 3px 3px 6px;
+    margin-top: 20px;
 }
 
 input {
-    display: block;
+    background: #e2e2e2;
     padding: 20px;
     width: 300px;
     height: 10px;
     border-radius: 10px;
-    margin: 0 auto;
-    
 }
 
 input::placeholder {
     color: black;
     padding: 5px;
+    font-size: 18px;
 }
 
-.input-form {
+.input-form, .input-submit {
     margin: 20px 0 0 75px;
 }
 
 .input-submit {
-    margin: 20px 0 0 0;
     cursor: pointer;
     width: 350px;
     height: 50px;
@@ -72,15 +78,44 @@ input::placeholder {
     color: #fff;
     font-weight: bold;
     font-size: 15px;
+    transition: all 2s;
+}
+
+.input-submit:hover {
+    transform:rotateY(360deg) scale(1.1);
 }
 
 .autorizacao{
     font-weight: bold;
     width: 400px;
     font-size: 12px;
-    
+    margin:15px auto 0;
 }
 
 span {
     color: red;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    vertical-align: bottom;
+    padding: 10px;
+    border-radius: 80px;
+    transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 3px 6px black;
+}
+
+img:active {
+    transform: scale(0.97);
 }
